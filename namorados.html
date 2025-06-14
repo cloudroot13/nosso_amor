@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Para Você, Meu Amor ❤️</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ff0000;
+            background-image: url('https://i.imgur.com/XOjRcYF.jpg');
+            background-blend-mode: overlay;
+            color: white;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 30px;
+            color: #ffcccc;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .section {
+            margin: 40px 0;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            background: rgba(255, 0, 0, 0.2);
+            padding: 25px;
+            border-radius: 15px;
+        }
+        .text {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .photo {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            padding: 15px;
+        }
+        .photo img {
+            max-width: 100%;
+            border-radius: 10px;
+            border: 4px solid white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+        .photo img:hover {
+            transform: scale(1.03);
+        }
+        #timer {
+            font-size: 2em;
+            text-align: center;
+            margin: 30px 0;
+            padding: 25px;
+            background-color: rgba(255, 0, 0, 0.5);
+            border-radius: 15px;
+            border: 2px solid #ffcccc;
+        }
+        .music-player {
+            width: 100%;
+            text-align: center;
+            margin: 40px 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #ff0000;
+        }
+        .heart {
+            position: fixed;
+            font-size: 20px;
+            animation: float 6s linear infinite;
+            opacity: 0;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .rose {
+            position: fixed;
+            opacity: 0.15;
+            z-index: 0;
+            animation: float-rose 120s linear infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0.8; }
+            100% { transform: translateY(-20vh) rotate(360deg); opacity: 0; }
+        }
+        @keyframes float-rose {
+            0% { transform: translateY(100vh) rotate(0deg); }
+            100% { transform: translateY(-100vh) rotate(360deg); }
+        }
+        .highlight {
+            background: rgba(255, 0, 0, 0.3);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .memory-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Efeitos de fundo -->
+    <div id="hearts-container"></div>
+    <div id="roses-container"></div>
+
+    <div class="container">
+        <h1>Feliz Dia dos Namorados, Meu Amor! ❤️</h1>
+        
+        <!-- Timer Super Detalhado -->
+        <div id="timer">
+            <div style="font-size: 1.5em; margin-bottom: 10px;">Nosso Tempo Juntos</div>
+            <div id="time-counter" style="font-size: 1.3em;"></div>
+            <div style="margin-top: 10px; font-size: 0.9em;">
+                Cada segundo ao seu lado é um presente ❤️
+            </div>
+        </div>
+        
+        <!-- Seção de Declaração Ampliada -->
+        <div class="section">
+            <div class="text">
+                <h2>Para Você, Minha Vida...</h2>
+                <p>Meu amor,</p>
+                <p>Quando eu te conheci no <span class="highlight">aniversário da Ana</span>, em <span class="highlight">4 de janeiro de 2025</span>, senti que o destino nos uniu de uma forma mágica. Seu sorriso iluminou aquele lugar e roubou meu coração instantaneamente.</p>
+                
+                <div class="memory-box">
+                    <p>"Lembro como você estava linda com seu [descreva a roupa], e como a música <span class="highlight">'Terapia' do MC Kevin</span> tocava ao fundo, criando o cenário perfeito para nosso encontro."</p>
+                </div>
+                
+                <p>Você transformou minha vida completamente. Obrigado por ser minha companheira, minha melhor amiga e o amor da minha vida. Prometo te amar e cuidar de você todos os dias.</p>
+                
+                <p style="text-align: right; font-style: italic; margin-top: 30px;">
+                    Com todo meu coração,<br>
+                    Seu namorado ❤️
+                </p>
+            </div>
+            <div class="photo">
+                <img src="fotos/foto1.jpeg" alt="Nosso primeiro dia">
+                <p style="font-style: italic; margin-top: 10px;">O início da nossa história...</p>
+            </div>
+        </div>
+        
+        <!-- Seção Nosso Começo (Super Detalhada) -->
+        <div class="section">
+            <div class="photo">
+                <img src="fotos/foto2.jpeg" alt="Nosso começo">
+            </div>
+            <div class="text">
+                <h2>Nosso Lindo Começo</h2>
+                
+                <div class="memory-box">
+                    <p>"Aquele primeiro olhar no aniversário da Ana foi como se o tempo tivesse parado. Você estava [descreva como ela estava] e eu sabia que precisava te conhecer."</p>
+                </div>
+                
+                <h3 style="margin-top: 25px;">Nossos Primeiros Momentos Especiais:</h3>
+                <ul style="line-height: 1.8;">
+                    <li><strong>Primeira conversa:</strong> Quando fiz uma piada do jeito que você come devagar</li>
+                    <li><strong>Nosso primeiro encontro:</strong> Quando fomos pro lago e você eatava usando o meu casaco</li>
+                    <li><strong>Primeira vez que segurei sua mão:</strong> Aquele momento mágico quando dividimos o fone de ouvido</li>
+                </ul>
+                
+                <p>Desde aquele dia, minha vida ganhou cores que eu nem sabia que existiam. Você é meu maior presente!</p>
+            </div>
+        </div>
+        
+        <!-- Seção Primeira Viagem -->
+        <div class="section" style="background: rgba(255, 204, 204, 0.2);">
+            <div class="text">
+                <h2>Nossa Primeira Viagem Juntos ✈️</h2>
+                
+                <div class="memory-box">
+                    <p>"Lembro perfeitamente da sua felicidade quando estávamos [local da viagem]. Você estava radiante explorando cada cantinho e fazendo cada momento especial."</p>
+                </div>
+                
+                <h3>Memórias Inesquecíveis:</h3>
+                <ul style="line-height: 1.8;">
+                    <li><strong>A chegada:</strong> Como ficamos maravilhados com o aguario ou as aguas cristalinas do arraia do cabo</li>
+                    <li><strong>Comidas diferentes:</strong> Quando experimentamos ostras rsrs e eu amei sua reação</li>
+                    <li><strong>Fotos incríveis:</strong> Aquele pôr do sol que capturamos no pão de açucar</li>
+                    <li><strong>Momento mais especial:</strong> quando jogamos banco imobiliario todos nos </li>
+                </ul>
+                
+                <p style="margin-top: 20px;">Essa viagem foi apenas a primeira de muitas que faremos juntos. Mal posso esperar para criar novas aventuras ao seu lado!</p>
+            </div>
+            <div class="photo">
+                <img src="fotos/foto3.jpeg" alt="Nossa primeira viagem">
+            </div>
+        </div>
+        
+        <!-- Player do Spotify -->
+        <div class="music-player">
+            <h2 style="font-size: 1.8em;">🎵 A Música do Nosso Amor 🎵</h2>
+            <p style="margin-bottom: 20px; font-size: 1.1em;">"Terapia - MC Kevin: a música que estava tocando quando nossos olhos se encontraram pela primeira vez"</p>
+            
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5ROyrHNiEx9DeZ5SONjVbM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            
+            <p style="margin-top: 20px; font-style: italic;">"Sempre que ouço essa música, fecho os olhos e volto para aquele primeiro olhar no aniversário da Ana..."</p>
+        </div>
+        
+        <!-- Seção Final -->
+        <div class="section" style="background: rgba(255, 0, 0, 0.1); text-align: center;">
+            <div style="width: 100%;">
+                <h2>Nosso Futuro Juntos</h2>
+                <p>Eu prometo:</p>
+                <ul style="display: inline-block; text-align: left; line-height: 1.8;">
+                    <li>Te amar em todos os seus dias</li>
+                    <li>Sempre valorizar cada momento juntos</li>
+                    <li>Criar uma vida cheia de aventuras</li>
+                    <li>Ser seu porto seguro em qualquer tempestade</li>
+                </ul>
+                <p style="margin-top: 20px; font-size: 1.2em;">Que nosso amor continue crescendo mais forte a cada dia!</p>
+                <p style="font-size: 1.5em; margin-top: 30px;">❤️</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Timer Ultra Detalhado (com segundos)
+        function updateTimer() {
+            const startDate = new Date("2025-01-04T00:00:00");
+            const now = new Date();
+            const diff = now - startDate;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById("time-counter").innerHTML = `
+                <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                    <div>${days} <small>dias</small></div>
+                    <div>${hours} <small>horas</small></div>
+                    <div>${minutes} <small>minutos</small></div>
+                    <div>${seconds} <small>segundos</small></div>
+                </div>
+            `;
+        }
+        
+        updateTimer();
+        setInterval(updateTimer, 1000);
+
+        // Efeito de corações flutuantes
+        function createHearts() {
+            const hearts = ['❤️', '🧡', '💛', '💚', '💙', '💜', '🤎', '🖤', '🤍'];
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = hearts[Math.floor(Math.random() * hearts.length)];
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.fontSize = (Math.random() * 20 + 10) + 'px';
+            heart.style.animationDuration = (Math.random() * 4 + 3) + 's';
+            document.getElementById('hearts-container').appendChild(heart);
+            
+            setTimeout(() => {
+                heart.remove();
+            }, 7000);
+        }
+        
+        // Efeito de rosas flutuantes
+        function createRoses() {
+            const rose = document.createElement('div');
+            rose.className = 'rose';
+            rose.innerHTML = '🌹';
+            rose.style.left = Math.random() * 100 + 'vw';
+            rose.style.fontSize = (Math.random() * 30 + 20) + 'px';
+            rose.style.animationDuration = (Math.random() * 60 + 60) + 's';
+            document.getElementById('roses-container').appendChild(rose);
+            
+            setTimeout(() => {
+                rose.remove();
+            }, 120000);
+        }
+        
+        // Inicia os efeitos
+        setInterval(createHearts, 300);
+        setInterval(createRoses, 2000);
+        
+        // Cria algumas rosas iniciais
+        for (let i = 0; i < 5; i++) {
+            setTimeout(createRoses, i * 500);
+        }
+    </script>
+</body>
+</html>
